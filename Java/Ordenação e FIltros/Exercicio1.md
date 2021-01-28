@@ -1,6 +1,7 @@
-Exercício retirado do bootcamps de Java da Digital Innovation One
+# Exercício retirado do bootcamps de Java da Digital Innovation One
 
-Desafio:
+# Desafio:
+  <p>
   O banco que você trabalha sempre tem problemas para organizar as 
   filas de atendimento dos clientes.
 
@@ -13,8 +14,10 @@ Desafio:
   Então, dada a ordem de chegada dos clientes reordene a fila de acordo 
   com o número recebido via sms, e diga quantos clientes não precisaram
   trocar de lugar nessa reordenação.
+  </p>
   
-  Entrada:
+  # Entrada:
+  <p>
      A primeira linha contém um inteiro N, indicando o número de casos
     de teste a seguir.
     Cada caso de teste inicia com um inteiro M (1 ≤ M ≤ 1000), indicando o 
@@ -24,4 +27,4 @@ Desafio:
     Os inteiros acima são dados em ordem de chegada, ou seja, o primeiro 
     inteiro diz respeito ao primeiro cliente a chegar na fila, o segundo 
     inteiro diz respeito ao segundo cliente, e assim sucessivamente.
-
+   </p>
