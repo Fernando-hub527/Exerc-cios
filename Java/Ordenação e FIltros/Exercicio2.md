@@ -12,6 +12,7 @@
   Sua tarefa é melhorar o aplicativo de notas desenvolvendo um código que 
   exclua os itens duplicados da lista de compras e que os ordene alfabeticamente.
 </p>
+
 # Entrada:
 <p>
   A primeira linha de entrada contém um inteiro N (N < 100) com a quantidade de
