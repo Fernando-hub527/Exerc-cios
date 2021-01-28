@@ -1,13 +1,27 @@
 Exercício retirado do bootcamps de Java da Digital Innovation One
 
 Desafio:
-  Crie um programa onde você receberá valores inteiros não negativos como entrada.
-  Ordene estes valores de acordo com o seguinte critério:
-      Primeiro os Pares
-      Depois os Ímpares
-  Você deve exibir os pares em ordem crescente e na sequência os ímpares em ordem decrescente.
+  O banco que você trabalha sempre tem problemas para organizar as 
+  filas de atendimento dos clientes.
+
+  Após uma reunião com a gerência ficou decidido que os clientes ao chegar 
+  na agência receberão uma senha numérica em seu aparelho de celular via 
+  sms e que a ordem da fila será dada não pela ordem de chegada, mas sim 
+  pelo número recebido via sms. A ordem de atendimento será decrescente: 
+  aqueles que receberam número maior deverão ser atendidos primeiro. 
+
+  Então, dada a ordem de chegada dos clientes reordene a fila de acordo 
+  com o número recebido via sms, e diga quantos clientes não precisaram
+  trocar de lugar nessa reordenação.
   
   Entrada:
-    A primeira linha de entrada contém um único inteiro positivo N (1 < N < 10000) 
-    Este é o número de linhas de entrada que vem logo a seguir. 
-    As próximas N linhas terão, cada uma delas, um valor inteiro não negativo.
+     A primeira linha contém um inteiro N, indicando o número de casos
+    de teste a seguir.
+    Cada caso de teste inicia com um inteiro M (1 ≤ M ≤ 1000), indicando o 
+    número de clientes. Em seguida haverá M inteiros distintos Pi 
+    (1 ≤ Pi ≤ 1000), onde o i-ésimo inteiro indica o número recebido via
+    sms do i-ésimo cliente.
+    Os inteiros acima são dados em ordem de chegada, ou seja, o primeiro 
+    inteiro diz respeito ao primeiro cliente a chegar na fila, o segundo 
+    inteiro diz respeito ao segundo cliente, e assim sucessivamente.
+
