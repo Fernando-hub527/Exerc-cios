@@ -1,7 +1,8 @@
-Exercício retirado do bootcamps de Java da Digital Innovation One
+# Exercício retirado do bootcamps de Java da Digital Innovation One
 
 
-Desafio:
+# Desafio:
+<p>
   O professor Girafales organizou a confecção  de um uniforme para as 
   turmas da escola para comemorar o final do ano. Após algumas conversas, 
   ficou decidido com os alunos que eles poderiam escolher a cor do 
@@ -9,8 +10,10 @@ Desafio:
   sua ajuda para organizar as listas de quem quer o uniforme em cada uma 
   das turmas, relacionando estas camisetas pela cor, tamanho (P, M ou G)
   e por último pelo nome.
+  </p>
   
-Entrada:
+# Entrada:
+<p>
   Cada caso de teste inicia com um valor N, (1 ≤ N ≤ 60) inteiro e positivo,
   que indica a quantidade de uniformes a serem feitas para aquela turma. 
   As próximas N*2 linhas contém informações de cada um dos uniformes (serão 
@@ -19,3 +22,4 @@ Entrada:
   ("branco" ou "vermelho") seguido por um espaço e pelo tamanho do uniforme
   "P" "M" ou "G". A entrada termina quando o valor de N for igual a zero (0)
   e esta valor não deverá ser processado.
+  </p>
